@@ -14,11 +14,11 @@ Now let's talk about some commands for this summary:
 # Installing Git
 
 There are many ways to install Git, and it depends from operating system that you are using.
-´´´sudo apt-get/apt install git´´´
+```sudo apt-get/apt install git```
 This command will install Git and it's components for the correct usage of git on Linux on Debian.
-´´´sudo yum install git´´´
+```sudo yum install git```
 Git for Fedora.
-´´´git´´´
+```git```
 For MAC, the first time, you will be prompted to install it.
 
 # Configuring Git
