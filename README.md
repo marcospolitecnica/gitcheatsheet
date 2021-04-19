@@ -23,9 +23,9 @@ For MAC, the first time, you will be prompted to install it.
 
 # Configuring Git
 
-```git config --global user.name <yourgitcentreusername>```specifies the location where you will going to upload your submissions. "<yourgitcentreusername>" is the username where you are going to upload you commits.
+```git config --global user.name <yourgitcentreusername>```specifies the location where you will going to upload your submissions. "yourgitcentreusername" is the username where you are going to upload you commits.
 ```git config --global user.email <yourgitcentreemail>```
-"<yourgitcentreemail>" is the e-mail where you are registered in your preferred git centre.
+"yourgitcentreemail" is the e-mail where you are registered in your preferred git centre.
 
 Also, you can set you default editor for Git in case Git prompts you to add a message for a certain option.
 ```git config --global core.editor <yourpreferrededitor>```
