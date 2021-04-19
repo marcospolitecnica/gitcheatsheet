@@ -10,7 +10,7 @@ In this centres you can find other Gits, called repositories, in those repositor
 
 Now let's talk about some commands for this summary:
 
-```
+
 # Installing Git
 
 // There are many ways to install Git, and it depends from operating system that you are using.
