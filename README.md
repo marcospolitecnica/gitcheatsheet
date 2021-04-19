@@ -23,13 +23,13 @@ For MAC, the first time, you will be prompted to install it.
 
 # Configuring Git
 
-git config --global user.name <yourgitcentreusername> // specifies the location where you will going to upload your submissions
-//yourgitcentreusername is the username where you are going to upload you commits.
-git config --global user.email <yourgitcentreemail>
-// yourgitcentreemail is the e-mail where you are registered in your preferred git centre.
-// Also, you can set you default editor for Git in case Git prompts you to add a message for a certain option.
-git config --global core.editor <yourpreferrededitor> // This is the command to set the editor
-// Where yourpreferrededitor is where you input your editor for git.
+```git config --global user.name <yourgitcentreusername>```specifies the location where you will going to upload your submissions. <yourgitcentreusername> is the username where you are going to upload you commits.
+```git config --global user.email <yourgitcentreemail>```
+<yourgitcentreemail> is the e-mail where you are registered in your preferred git centre.
+
+Also, you can set you default editor for Git in case Git prompts you to add a message for a certain option.
+```git config --global core.editor <yourpreferrededitor>```
+This is the command to set the editor where <yourpreferrededitor> is where you input your editor for git.
 
 # Getting a repository
 
@@ -37,7 +37,8 @@ There are two ways for getting a repository:
 
 ## Initializing a repository
 
-git init // This will create a new subdirectory called .git, which contains the necessary files for the repository.
+```git init```
+This will create a new subdirectory called .git, which contains the necessary files for the repository.
 
 git add <yourfile.extension>
 git add LICENSE
