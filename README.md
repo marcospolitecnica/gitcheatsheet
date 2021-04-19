@@ -76,20 +76,21 @@ Rules:
 - Put / at the start of the pattern to avoid recursivity or infinite or reverse 
 - Put ! to negate a pattern
 
-// Example of .gitignore
-```# Files with .out will be ignored
+Example of .gitignore
+
+```
+# Files with .out will be ignored
 *.out
 
-``` # Files on this directory will be ignored
+# Files on this directory will be ignored
 test/
 
-```# Files with .a will be ignored
+# Files with .a will be ignored
 *.a
 
-```#But the file test.out will be tracked, even if .out files are ignored
+#But the file test.out will be tracked, even if .out files are ignored
 !test.out
 
-//This line ends the example
 
 ```
 ## Staged and unstaged changes
