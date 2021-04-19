@@ -68,13 +68,13 @@ git status --short
 ```.gitignore``` is the file for the files to be ignored.
 
 Rules:
--The blank lines or lines that starts with # are ignored.
--Put the *.ext on a line, where the ext means to an extension that you wish that Git ignore.
--Put the .[ext1ext2]where the both ext1 and the ext2 are the extensions that you wish Git to ignore
--Put the *~, where the files with ~ should be ignored.
--Put / at the end a pattern to specify a directory.
--Put / at the start of the pattern to avoid recursivity or infinite or reverse 
--Put ! to negate a pattern
+- The blank lines or lines that starts with # are ignored.
+- Put the *.ext on a line, where the ext means to an extension that you wish that Git ignore.
+- Put the .[ext1ext2]where the both ext1 and the ext2 are the extensions that you wish Git to ignore
+- Put the *~, where the files with ~ should be ignored.
+- Put / at the end a pattern to specify a directory.
+- Put / at the start of the pattern to avoid recursivity or infinite or reverse 
+- Put ! to negate a pattern
 
 // Example of .gitignore
 ```# Files with .out will be ignored
@@ -91,6 +91,7 @@ test/
 
 //This line ends the example
 
+```
 ## Staged and unstaged changes
 
 git diff // Command to view the changes of the actual repository.
