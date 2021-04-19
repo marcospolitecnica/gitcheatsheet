@@ -90,9 +90,8 @@ test/
 
 #But the file test.out will be tracked, even if .out files are ignored
 !test.out
-
-
 ```
+
 ## Staged and unstaged changes
 
 git diff // Command to view the changes of the actual repository.
@@ -112,7 +111,8 @@ git diff --cached
 
 git commit //Doing this, Git will open your editor to enter a message for your commit
 
-// Example
+Example
+```
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
 # On branch master
@@ -122,9 +122,7 @@ git commit //Doing this, Git will open your editor to enter a message for your c
 #	modified:   README.md
 #	new file:   c.c
 #
-
-// End of Example
-
+```
 git commit -m // Option to type a message, also you need to put the message in quotes.
 
 ## Skipping the Staging Area
