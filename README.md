@@ -78,16 +78,16 @@ Rules:
 
 // Example of .gitignore
 ```# Files with .out will be ignored
-*.out```
+*.out
 
 ``` # Files on this directory will be ignored
-test/```
+test/
 
 ```# Files with .a will be ignored
-*.a```
+*.a
 
 ```#But the file test.out will be tracked, even if .out files are ignored
-!test.out```
+!test.out
 
 //This line ends the example
 
