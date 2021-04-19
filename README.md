@@ -65,29 +65,29 @@ git status --short
 
 ## Ignoring files
 
-.gitignore // File for the files to be ignored.
+```.gitignore``` is the file for the files to be ignored.
 
-// Rules:
-// The blank lines or lines that starts with # are ignored.
-// Put the*.ext on a line, where the ext means to an extension that you wish that Git ignore.
-// Put the .[ext1ext2]where the both ext1 and the ext2 are the extensions that you wish Git to ignore
-// Put the *~, where the files with ~ should be ignored.
-// Put / at the end a pattern to specify a directory.
-// Put / at the start of the pattern to avoid recursivity or infinite or reverse 
-// Put ! to negate a pattern
+Rules:
+-The blank lines or lines that starts with # are ignored.
+-Put the *.ext on a line, where the ext means to an extension that you wish that Git ignore.
+-Put the .[ext1ext2]where the both ext1 and the ext2 are the extensions that you wish Git to ignore
+-Put the *~, where the files with ~ should be ignored.
+-Put / at the end a pattern to specify a directory.
+-Put / at the start of the pattern to avoid recursivity or infinite or reverse 
+-Put ! to negate a pattern
 
 // Example of .gitignore
-# Files with .out will be ignored
-*.out
+```# Files with .out will be ignored
+*.out```
 
-# Files on this directory will be ignored
-test/
+``` # Files on this directory will be ignored
+test/```
 
-# Files with .a will be ignored
-*.a
+```# Files with .a will be ignored
+*.a```
 
-# But the file test.out will be tracked, even if .out files are ignored
-!test.out
+```#But the file test.out will be tracked, even if .out files are ignored
+!test.out```
 
 //This line ends the example
 
