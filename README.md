@@ -24,6 +24,26 @@ To go back to a directory or several directories, use ```cd ..``` or ```cd ../..
 
 Pro note: To quickly complete a directory name, use the tab key.
 
+### Compare in command line
+
+To compare files in the command line, we use the command ```diff <file1> <file2>``` where "file1" and "file2" are the files you wish to compare.
+For example, to compare text files, use the command ```diff file1.txt file2.txt```
+
+### Find files, folder and inside files
+
+To find files, folder and inside files, use the command ```find . -name <first letters of file to find>\*```
+The command above is case sensitive, but if you want to use the isensitive version of this command, use -iname instead of -name.
+
+### Create and edit text files
+
+To create a file and edit, use command ```nano <filename.fileext>``` where "filename" is file you want to use, and "fileext" is the extension you want to use.
+This will open a file editor called nano, from there, you can start editing the file, when you finish editing, hold the ctrl key and then the x key.
+Then the program will ask you if you want to save the file, use y key for yes or the n key for no.
+If you say yes, the program will prompt you a file name, once you have the file name ready, push the enter or return key.
+
+### Get state of the computer
+
+To get state of the computer, use the command ```lshw```, this will display all the information, but if you want short, add the --short command at the end of "lshw".
 
 # Git
 
