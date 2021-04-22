@@ -1,6 +1,31 @@
-# GitCheatSheet
+# GitCheatSheet and Command Line
 
-This is the summary of the Git usage, but first, what is Git?
+This is the summary of the Git and the command line usage where you can see brefly summary of these topics.
+
+
+# The command Line
+
+The Command Line is where you can manipulate files using your keyboard, that means that there won't be any graphical interface on your PC, and also means that you must memorize the majority of the commands.
+
+## Some comands of you can use
+
+### To create or delete directories
+
+To create directories, you can use the command ```mkdir <foldernamehere>``` where "foldernamehere" is where you can put the name you wish for your folder
+
+To remove directories, you can use the command ```rmdir <foldernamehere>``` where "foldernamehere" is the name of the folder you want to delete, but you can use it only when there are no files inside the directory.
+To remove the directory with any other files inside, use the command ```rm -rf <foldernamehere>```
+
+### Navigate in the command line
+
+To navigate to a folder, we use the command ```cd <directoryhere>``` where "directoryhere" is the directory you want to navigate.
+If you want to navigate to several folders, use the command ```cd <directory1>/<directory2>/<directory3>/``` where directory1, 2 and 3 are the directories where you want to navigate.
+To go back to a directory or several directories, use ```cd ..``` or ```cd ../../../```
+
+Pro note: To quickly complete a directory name, use the tab key.
+
+
+# Git
 
 Git is the version control for programs, and also for the sake of controlling the versions and so on.
 
